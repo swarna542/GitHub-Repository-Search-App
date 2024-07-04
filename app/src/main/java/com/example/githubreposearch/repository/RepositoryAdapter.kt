@@ -1,9 +1,10 @@
-package com.example.githubreposearch
+package com.example.githubreposearch.repository
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.githubreposearch.R
 
 class RepositoryAdapter(private val repositories: List<Repository>) : RecyclerView.Adapter<RepositoryAdapter.ViewHolder>() {
 
